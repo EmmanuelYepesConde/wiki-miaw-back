@@ -1,0 +1,28 @@
+{
+  "name": "wiki-miaw-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start:dev": "ts-node-dev src/index.ts",
+    "start": "node build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.96",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@typegoose/typegoose": "^12.8.0",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "4.21.1",
+    "mongoose": "^8.7.2"
+  }
+}
